@@ -1,0 +1,28 @@
+ 
+   /* hp */
+   @media (max-width: 600px) {
+    .medsos {
+      margin-top: 50px;
+    }
+  
+ }
+
+ /* komputer */
+ @media (min-width: 600px) { 
+  .medsos{
+    margin-left: 330px;
+  } .ras {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+  } .suku {
+    -webkit-box-pack:end;
+    -ms-flex-pack:end;
+    justify-content:flex-end;
+  }
+  h1 .tes{
+    overflow: hidden;
+    color: blueviolet;
+  }
+ }
+

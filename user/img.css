@@ -1,0 +1,12 @@
+/* utilty */
+.jumbotron {
+    background-image: url(img/buku.jpg);
+    backdrop-filter: blur(-10px);
+    background-size: cover;
+    height: 700px;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+  }
+

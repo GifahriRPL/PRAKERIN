@@ -1,0 +1,52 @@
+  /* khusus komputer*/
+@media (min-width: 992px) { 
+    .nav-link {
+        text-transform: uppercase;
+        margin: 0 10px 0 10px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #f5f5f5;
+        width: 70%;
+        margin: auto;
+        border-radius: 4px;
+        padding-bottom: 4px;
+        margin-bottom: -7px;
+    }
+
+    
+ }
+
+ /* khusus laptop */
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+  body {
+      background-repeat: no-repeat;
+    }
+
+  
+  }
+
+  /* khusus tablet */
+  @media (min-width: 301px) and (max-width: 767.98px) {
+    body {
+        background-repeat: no-repeat;
+      }
+  
+    }
+
+ /* khusus hp */
+ @media (max-width: 300.98px) { 
+    body {
+        background-repeat: no-repeat;
+      }
+
+}
+
+ /* semua */
+ body {
+    background-image: url(img/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg);
+    background-size: cover;
+ }
+ 

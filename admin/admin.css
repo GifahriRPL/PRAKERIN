@@ -1,0 +1,26 @@
+ 
+   /* hp */
+   @media (max-width: 575.98px) {
+    .medsos {
+      margin-top: 50px;
+    }
+ }
+
+    /* komputer */
+    @media (min-width: 576px) { 
+    .medsos{
+        margin-left: 330px;
+    } .ras {
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+    } .suku {
+        -webkit-box-pack:end;
+        -ms-flex-pack:end;
+        justify-content:flex-end;
+    }
+ }
+
+.clear {
+    clear: both;
+}
